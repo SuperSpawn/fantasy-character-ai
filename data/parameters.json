@@ -1,0 +1,30 @@
+[
+    {
+        "name": "name",
+        "description": "name of the character."
+    },
+    {
+        "name": "age",
+        "description": "age of the character in year."
+    },
+    {
+        "name": "favorite soup",
+        "description": "the character's favorite soup recipe."
+    },
+    {
+        "name": "biggest strength",
+        "description": "biggest strength of the character, his best trait."
+    },
+    {
+        "name": "biggest weakness",
+        "description": "biggest weakness of the character, his worst trait."
+    },
+    {
+        "name": "short description",
+        "description": "short description of the character."
+    },
+    {
+        "name": "appearance",
+        "description": "appearance of the character."
+    }
+]
