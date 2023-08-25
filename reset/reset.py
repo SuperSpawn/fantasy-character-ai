@@ -19,11 +19,7 @@ def reset():
     if 'llm' not in st.session_state:
         st.session_state['llm'] = OpenAI(temperature=0.7)
     if 'character' not in st.session_state:
-        st.session_state['character'] = """Meet Fargrath, a brave orc warrior who is 26 years old. He stands tall at 6'3" with broad, muscular shoulders, and has an intimidating presence. His skin is a deep green, and he wears armor made of steel and leather. His eyes are a bright yellow, and he has a long, braided beard.
-His biggest strength is his courage and bravery, which he uses to defend his people and protect the innocent. His biggest weakness is his temper, which can lead him to act rashly and with aggression.
-Fargrath's favorite soup is a hearty vegetable soup with plenty of potatoes, onions, and carrots. He loves to have a warm bowl of it after a long day of battle.
-Overall, Fargrath is a brave and courageous orc warrior who is always ready to fight for what he believes in."""
-
+        st.session_state['character'] = ""
     if 'default_description' not in st.session_state:
         st.session_state['default_description'] = ""
     if 'chat_llm' not in st.session_state:
